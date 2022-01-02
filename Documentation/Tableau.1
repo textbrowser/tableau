@@ -1,0 +1,43 @@
+.TH Tableau 1 "January 01, 2022"
+.SH NAME
+Tableau
+.SH SYNOPSIS
+.B Tableau [options]
+.SH DESCRIPTION
+.B Tableau
+is a graphical interface to any data stream.
+.SH OPTIONS
+.TP
+.BI --full-screen
+Display the UI in a full-screen mode. Only the first instance will be considered.
+.TP
+.BI --help
+Display helpful text.
+.TP
+.BI --maximize
+Display the UI in a maximized mode. Only the first instance will be considered.
+.TP
+.BI --open-display " file"
+Open the specified display file. Multiple instances of open-display are supported.
+.TP
+.BI --open-display-without-extension " file"
+Open the specified display(s) having the file name file. For example, if the files file.TDF and file.TDf exist, both are opened. Multiple instances of open-display-without-extension are supported.
+.TP
+.BI --pause
+Pause the display(s) specified by open-display.
+.TP
+.BI --separate
+Separate the display(s) specified by open-display. Only the last instance is considered.
+.TP
+.BI --separate-and-resize
+Separate and resize the display(s) specified by open-display. Only the last instance is considered.
+.TP
+.BI --show-widget-box
+Show the Widget Box dialog shortly after the main window is shown.
+.TP
+.BI -style= "style"
+Apply the specified Qt style. Supported styles: GTK+. One instance, please.
+.SH NOTES
+None.
+.SH AUTHOR(S)
+.B Alexis Megas
