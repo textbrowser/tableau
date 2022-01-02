@@ -1,0 +1,12 @@
+win32 {
+QMAKE_CXXFLAGS += -m32
+}
+else {
+}
+
+QMAKE_CXXFLAGS_RELEASE -= -O2
+QMAKE_CXXFLAGS_RELEASE += -O3
+QMAKE_DISTCLEAN += -fr temp .qmake.cache .qmake.stash
+QMAKE_LFLAGS_RPATH =
+QMAKE_STRIP = echo
+VERSION = "$$cat(VERSION)"

@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Comment=Tableau
+Comment[en_US]=Tableau
+Exec=/usr/local/tableau/bin/Tableau.bash
+Icon=/usr/local/tableau/Icons/tableau.jpg
+Icon[en_US]=/usr/local/tableau/Icons/tableau.jpg
+Name=Tableau
+Name[en_US]=Tableau
+Terminal=false
+Type=Application
+Version=1.0
