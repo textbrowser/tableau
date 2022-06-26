@@ -31,6 +31,6 @@ mkdir -p tableau-debian/usr/share/applications
 cp -p ./Desktop/*.desktop tableau-debian/usr/share/applications/.
 cp -pr ./DEBIAN tableau-debian/.
 cp -r ./usr/local/tableau tableau-debian/usr/local/.
-fakeroot dpkg-deb --build tableau-debian Tableau-2022.01.10_amd64.deb
+fakeroot dpkg-deb --build tableau-debian Tableau-2022.12.25_amd64.deb
 rm -fr ./usr
 rm -fr tableau-debian
