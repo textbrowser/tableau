@@ -8,24 +8,24 @@ then
     exit 1
 fi
 
-mkdir -p ./usr/local/tableau/current/Desktop
-mkdir -p ./usr/local/tableau/current/Documentation
-mkdir -p ./usr/local/tableau/current/bin
-mkdir -p ./usr/local/tableau/current/lib
-mkdir -p ./usr/local/tableau/current/lib/Qwt/64
-cp -p Desktop/*.desktop ./usr/local/tableau/current/Desktop/.
-cp -p Documentation/Ecma-262.pdf ./usr/local/tableau/current/Documentation/.
-cp -p Documentation/Tableau.1 ./usr/local/tableau/current/Documentation/.
-cp -p Qwt/Library/64/Qt5/Debian/lib* ./usr/local/tableau/current/lib/Qwt/64/.
-cp -p Source/*/lib* ./usr/local/tableau/current/lib/.
-cp -p Source/UI/Documentation/*.pdf ./usr/local/tableau/current/Documentation/.
-cp -p Source/UI/Tableau ./usr/local/tableau/current/bin/.
-cp -p Source/UI/Tableau.bash ./usr/local/tableau/current/bin/.
-cp -pr Data ./usr/local/tableau/current/.
-cp -pr Source/UI/Icons ./usr/local/tableau/current/.
-rm -f ./usr/local/tableau/current/Icons/*.ico
-rm -f ./usr/local/tableau/current/Icons/*.qrc
-rm -f ./usr/local/tableau/current/Icons/*.rc
+mkdir -p ./usr/local/tableau/Desktop
+mkdir -p ./usr/local/tableau/Documentation
+mkdir -p ./usr/local/tableau/bin
+mkdir -p ./usr/local/tableau/lib
+mkdir -p ./usr/local/tableau/lib/Qwt/64
+cp -p Desktop/*.desktop ./usr/local/tableau/Desktop/.
+cp -p Documentation/Ecma-262.pdf ./usr/local/tableau/Documentation/.
+cp -p Documentation/Tableau.1 ./usr/local/tableau/Documentation/.
+cp -p Qwt/Library/64/Qt5/Debian/lib* ./usr/local/tableau/lib/Qwt/64/.
+cp -p Source/*/lib* ./usr/local/tableau/lib/.
+cp -p Source/UI/Documentation/*.pdf ./usr/local/tableau/Documentation/.
+cp -p Source/UI/Tableau ./usr/local/tableau/bin/.
+cp -p Source/UI/Tableau.bash ./usr/local/tableau/bin/.
+cp -pr Data ./usr/local/tableau/.
+cp -pr Source/UI/Icons ./usr/local/tableau/.
+rm -f ./usr/local/tableau/Icons/*.ico
+rm -f ./usr/local/tableau/Icons/*.qrc
+rm -f ./usr/local/tableau/Icons/*.rc
 mkdir -p tableau-debian/usr/local
 mkdir -p tableau-debian/usr/share/applications
 cp -p ./Desktop/*.desktop tableau-debian/usr/share/applications/.
