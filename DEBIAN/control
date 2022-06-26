@@ -1,10 +1,19 @@
 Architecture: amd64
-Depends: libqt5core5a (>= 5.12.0), libqt5datavisualization5 (>= 5.12.0), libqt5gui5 (>= 5.12.0), libqt5network5 (>= 5.12.0), libqt5opengl5 (>= 5.12.0), libqt5printsupport5 (>= 5.12.0), libqt5script5 (>= 5.12.0), libqt5sql5 (>= 5.12.0), libqt5sql5-sqlite (>= 5.12.0), libqt5widgets5 (>= 5.12.0)
+Depends: libqt5core5a (>= 5.12.0),
+	 libqt5datavisualization5 (>= 5.12.0),
+	 libqt5gui5 (>= 5.12.0),
+	 libqt5network5 (>= 5.12.0),
+	 libqt5opengl5 (>= 5.12.0),
+	 libqt5printsupport5 (>= 5.12.0),
+	 libqt5qml5 (>= 5.12.0),
+	 libqt5sql5 (>= 5.12.0),
+	 libqt5sql5-sqlite (>= 5.12.0),
+	 libqt5widgets5 (>= 5.12.0)
 Maintainer: Alexis Megas
 Package: Tableau
 Priority: optional
 Section: Science
-Version: 2022.01.10
+Version: 2022.12.25
 Description: Tableau
  Welcome to Tableau!
  Tableau is governed by a BSD license. Enjoy!
