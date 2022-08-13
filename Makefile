@@ -3,9 +3,9 @@ all:
 
 build-all-rpms-x86_64: build-rpm build-rpm-qt4-x86_64
 
-build-deb: distcleanall purge
+build-debian-amd64: distcleanall purge
 	$(MAKE) -C Source -f Makefile -j 5
-	Tools/make_deb.bash
+	Tools/make_debian_amd64.bash
 
 build-debug-rpm: build-src
 	mkdir -p RPMBUILD/BUILD

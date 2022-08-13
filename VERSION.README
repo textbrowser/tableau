@@ -2,7 +2,7 @@ Please keep the files current.
 
 DEBIAN/control
 Source/UI/android/AndroidManifest.xml
-Tools/make_deb.bash
+Tools/make_debian_amd64.bash
 VERSION
 VERSION.RPM
 VERSION.h
