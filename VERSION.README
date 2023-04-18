@@ -3,6 +3,6 @@ Please keep the files current.
 */control
 Source/UI/android/AndroidManifest.xml
 Tools/make_debian_amd64.bash
-VERSION
 VERSION.RPM
 VERSION.h
+VERSION.project
