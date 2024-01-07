@@ -1,5 +1,5 @@
 win32 {
-QMAKE_CXXFLAGS += -m32
+QMAKE_CXXFLAGS_RELEASE += -m32
 }
 else {
 }
